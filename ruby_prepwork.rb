@@ -107,7 +107,7 @@ def counting_game(people_num,number)
     end
     i+= step
     if(i>=people+1)
-      i-=10
+      i-=people
     elsif(i<=0)
       i+=people
     end
